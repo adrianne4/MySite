@@ -4,6 +4,7 @@
 */
 body {
 	font-family: Arial, Helvetica, sans-serif ;
+	background-color: #9ED6E4;
 }
 img {
 	max-width: 100% ;
@@ -16,22 +17,15 @@ input, select, button, textarea {
 meter, progress, output {
 	max-width: 100% ;
 }
-div#tswheader {
-	font-size:50px;
-	font-family: 'Lugrasimo', cursive;
-	background-color: #9BE4EA;
-}
 div#tswsidecol {
 	float: right ;
 	width: 20% ;
 	color: #000 ;
-	background-color: #fff ;
 }
 div#tswcontent {
 	float: right ;
 	width: 80% ;
-	color: #000 ;
-	background-color: #fff ;
+	color: #fff ;
 }
 @media only screen and (max-width: 629px) {
 	div#tswsidecol {
@@ -46,24 +40,28 @@ div#tswcontent {
 div#tswcontproper {
 	padding-left: 5px ;
 	padding-right: 5px ;
+	text-align:center;
+	
 }
 div#tswcontainer {
 	color: inherit ;
-	background-color: #fff ;
 }
 div#tswsideproper, div#tswothersideproper {
 	padding-left: 5px ;
 	padding-right: 5px ;
 }
 div#tswheader {
-	color: #000 ;
-	background-color: #fff ;
+	color: #002459 ;
+	font-size:50px;
+	font-family: 'Lugrasimo', cursive;
 }
 div#tswfooter {
 	color: #000 ;
-	background-color: #fff ;
 }
-img{
+img#logo {
 	max-height:100px;
 	margin-right:20px;
+}
+img#dudley {
+	max-height:600px;
 }
