@@ -46,3 +46,10 @@ padding:0px;
   color: white;
   background-color: #a5c8e9;
 }
+h1{
+	font-size:50px;
+	display:block;
+	padding-left:220px;
+	color:white;
+	font-family: "Lugrasimo", cursive;
+}
