@@ -1,0 +1,48 @@
+body {
+	font-family: Arial, Helvetica, sans-serif ;
+	background-color: #9ED6E4;
+}
+div#tswheader {
+  color: #002459;
+  font-size: 50px;
+  font-family: "Lugrasimo", cursive;
+}
+img#logo {
+  max-height: 100px;
+  margin-right: 20px;
+}
+#tswcssbuttons {
+  width: 250px;
+  max-width: 100%;
+  text-align: center;
+}
+
+#tswcssbuttons ul {
+ margin: 0px; 
+padding:0px; 
+  list-style: outside none none;
+}
+
+#tswcssbuttons li {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  list-style: outside none none;
+  font-family: 'Raleway', sans-serif;
+  font-size:25px;
+}
+
+#tswcssbuttons li a {
+  color: white;
+  background-color: silver;
+  border: 1px outset #7d7373;
+  text-decoration: none;
+	display: block;
+	padding:30px;
+	margin:30px;
+}
+
+#tswcssbuttons li a:hover {
+  color: white;
+  background-color: #a5c8e9;
+}
