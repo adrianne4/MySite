@@ -21,7 +21,7 @@ function makeGuess(){
         report.innerHTML += `,[${myGuess}] too large`;
     } else {
         report.innerHTML += `,[${myGuess}] is correct :)`;
-
+      //  To Calculator
         function randomFromTo(from, to) {
             return Math.floor(Math.random() * (to - from + 1) + from);
           }

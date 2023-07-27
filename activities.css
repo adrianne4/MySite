@@ -35,7 +35,7 @@ padding:0px;
 #tswcssbuttons li a {
   color: white;
   background-color: silver;
-  border: 1px outset #7d7373;
+  border: 1px solid grey;
   text-decoration: none;
 	display: block;
 	padding:30px;
