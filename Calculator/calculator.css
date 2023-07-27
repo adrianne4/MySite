@@ -1,0 +1,48 @@
+body {
+    background-color:antiquewhite;
+    text-align: center;
+}
+
+p {
+    font-size: 40px;
+    padding-top:200px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Raleway', sans-serif;
+}
+button {
+    height:50px;
+    width:100px;
+    font-size:35px;
+    background-color: #fcbc9e;
+    border:3px solid #fcbc9e;
+}
+.addButton {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>➕</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+.subtract {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>➖</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+input {
+    height: 30px;
+    width: 60;
+    font-size:20px;
+}
+/* Confetti */
+/* h1 {  */
+    /* position: absolute; */
+    /* margin-top: 30vh; */
+    /* width: 100%; */
+    /* text-align: center; */
+    /* font-size: 333%; */
+    /* font-family: sans-serif; */
+    /* color: grey; */
+    /* opacity: 0.5; */
+  /* } */
+  
+  /* canvas { */
+    /* overflow-y: hidden; */
+    /* overflow-x: hidden; */
+    /* width: 100%; */
+    /* margin: 0; */
+  /* }
