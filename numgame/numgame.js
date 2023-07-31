@@ -1,5 +1,6 @@
 const guess = document.getElementById("guess");
 const report = document.getElementById("report");
+const clickMe = document.getElementById("clickMe");
 
 const MAXNUM = 100;
 let secret;
@@ -10,6 +11,7 @@ function loadGame() {
     // report.innerHTML= secret;
 
 }
+
 
 function makeGuess(){
     let myGuess = guess.value;
@@ -22,6 +24,7 @@ function makeGuess(){
     } else {
         report.innerHTML += `,[${myGuess}] is correct :)`;
       //  To Calculator
+
         function randomFromTo(from, to) {
             return Math.floor(Math.random() * (to - from + 1) + from);
           }
