@@ -36,7 +36,7 @@ class Paddle {
         //   ball.vy to see where the ball is going
         let aiv = Math.abs(ball.vy) + 1;
         if (aiv > 3){
-            aiv = 3;
+            aiv = 3 ;
         }
         if (this.y+this.l/2 - 20 < ball.y){
              this.vy = aiv;
@@ -49,4 +49,26 @@ class Paddle {
         // Finally, call move to move the paddle normally
         this.move();
     }
+
+moveCPUslow(ball) {
+    // Use the properties of the ball to set a new velocity
+    // Helpful pieces:
+    //   Math.min() and Math.max() to limit the velocity
+    //   ball.y to see where the ball is
+    //   ball.vy to see where the ball is going
+    let aiv = Math.abs(ball.vy) + 1;
+    if (aiv > 1.5){
+        aiv = 1.5;
+    }
+    if (this.y+this.l/2 - 20 < ball.y){
+         this.vy = aiv;
+    }
+    if (this.y+this.l/2 + 20 > ball.y){
+        this.vy = -aiv;
+   }
+    // Modify this line to add your own code
+
+    // Finally, call move to move the paddle normally
+    this.move();
+}
 }

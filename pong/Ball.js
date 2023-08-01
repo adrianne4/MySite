@@ -10,13 +10,14 @@ class Ball {
 
     draw(ctx) {
         ctx.fillStyle = this.c;
-        ctx.strokeStyle = "black";
         ctx.lineWidth = 2;
         if (this.x<boardWidth/2){
             this.c = 'hotpink';
+            ctx.strokeStyle = "hotpink";
 
         } else {
-            this.c ='lightgray';
+            this.c ='darkgray';
+            ctx.strokeStyle = "darkgray";
         }
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.r, 0, 2*Math.PI);
