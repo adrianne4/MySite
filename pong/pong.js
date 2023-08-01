@@ -10,7 +10,7 @@ let paddleForce = 1.1; // >= 1.0
 let paddleWidth = 25;
 let paddleLength = 100;
 let ballRadius = 12.5;
-let winCeiling = 6;
+let winCeiling = 5;
 
 let ball;
 let ballHistoryx = [0,0,0,0,0,0,0,0,0,0,0,0,0,00,0,0,0,0,0,0];
@@ -153,7 +153,7 @@ function score(player) {
     if (player == "right") scoreR++;
         updateScore();
     if (player == "RIGH"){
-         scoreboard.innerHTML = `Oppenhiemer wins!`;
+         scoreboard.innerHTML = `Oppenheimer wins!`;
          scoreboard.style.fontFamily = `mySecondFont`;
     }
     else if(player == "LEF") {
