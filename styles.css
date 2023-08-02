@@ -43,7 +43,7 @@ div#tswcontent {
   }
 }
 div#tswcontproper {
-  padding-left: 5px;
+  padding-left: 15px;
   padding-right: 5px;
   text-align: center;
 }
@@ -61,6 +61,7 @@ div#tswheader {
   width: 250px;
   max-width: 100%;
   text-align: center;
+  
 }
 
 #tswcssbuttons ul {

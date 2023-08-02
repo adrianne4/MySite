@@ -1,0 +1,18 @@
+body{
+    background-color: azure;
+}
+/* #grad { 
+    background-image: linear-gradient(red, yellow);
+    background-size:cover;
+    background-attachment:fixed; 
+} */
+.blueGrad { 
+    background-image: linear-gradient(rgb(148, 78, 172), rgb(22, 26, 131));
+    background-size:cover;
+    background-attachment:fixed; 
+}
+.redGrad { 
+    background-image: linear-gradient(rgb(255, 206, 209), rgb(243, 28, 28));
+    background-size:cover;
+    background-attachment:fixed; 
+}
