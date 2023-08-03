@@ -6,12 +6,6 @@ body {
   background-attachment:fixed;
 }
 
-img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
-}
-
 input, select, button, textarea {
   max-width: 100%;
 }
@@ -21,20 +15,20 @@ meter, progress, output {
 }
 
 div#tswsidecol {
-  float: right;
+  float: left;
   width: 20%;
   color: black;
 }
 
 div#tswcontent {
   float: right;
-  width: 80%;
+  width: 100%;
   color: #002459;
 }
 
 @media only screen and ( max-width : 629px ) {
   div#tswsidecol {
-    float: none;
+    float: left;
     width: 100%;
   }
   div#tswcontent {
@@ -43,9 +37,8 @@ div#tswcontent {
   }
 }
 div#tswcontproper {
-  padding-left: 15px;
-  padding-right: 5px;
-  text-align: center;
+width:80%;
+float:right;
 }
 
 div#tswsideproper, div#tswothersideproper {
@@ -93,4 +86,7 @@ padding:0px;
   color: white;
   background-color: #a5c8e9;
 }
-
+img{
+  height:600px;
+  border: 5px solid #905245;
+}

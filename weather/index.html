@@ -4,32 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robbie &amp; Prof Loi</title>
+    <title>hat-check</title>
     <link rel="stylesheet" href="weather.css">
 </head>
 <body>
+    <h1>Hatticus &amp; Hatrianne &amp; Hatya</h1>
     <div id="dev-controls">
         <div class="controls">
             <button onclick="getLocation()">LOAD LOCATION</button>
-            <button onclick="getWeather()">LOAD WEATHER</button>
-            <button onclick="getForecast()">LOAD FORECAST</button>
-            <button onclick="getPollution()">LOAD POLLUTION</button>
+            <button onclick="getWeather()">LOAD HAT-CHECK</button>
+            <!-- <button onclick="getForecast()">LOAD FORECAST</button>
+            <button onclick="getPollution()">LOAD POLLUTION</button> -->
         </div>
         <div class="controls">
             <input id="testnum" type="number" min="1" max="5" value="1">
             <button onclick="testLocation()">TEST LOCATION</button>
-            <button onclick="testWeather()">TEST WEATHER</button>
-            <button onclick="testForecast()">TEST FORECAST</button>
-            <button onclick="testPollution()">TEST POLLUTION</button>
+            <button onclick="testWeather()">TEST HAT-CHECK</button>
+            <!-- <button onclick="testForecast()">TEST FORECAST</button>
+            <button onclick="testPollution()">TEST POLLUTION</button> -->
         </div>
     </div>
     
     <h2 id="location">LOCATION</h2>
     <h3 id="windSpeed"></h3>
+    <h4> HAT REPORT: </h4>
     <img src="cap.png" id="wind">
-    <p id="weather-report">WEATHER REPORT</p>
+    <p id="safe">Are <i>YOUR</i> hats safe?</p>
+    <!-- <p id="weather-report">WEATHER REPORT</p>
     
-    <table id="forecast-table"></table>
+    <table id="forecast-table"></table> -->
     
     <script src="./OWMGeocode.js"></script>
     <script src="./OWMForecast.js"></script>

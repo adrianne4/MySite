@@ -8,7 +8,12 @@ let owmGeocode = new OWMGeocode(APIKEY);
 let owmWeather = new OWMWeather(APIKEY, units);
 let owmForecast = new OWMForecast(APIKEY, units);
 let owmPollution = new OWMPollution(APIKEY);
+//// hat speed
+var r = document.querySelector(':root');
 
+// Create a function for getting a variable value
+
+/////
 ///////////////////////////////////////////////////////////////
 // LOCATION - translate from city, state, country to lat/lon //
 ///////////////////////////////////////////////////////////////
@@ -25,12 +30,17 @@ function displayLocation() {
 function displayWind() {
     const wind = document.getElementById("wind");
     const lable = document.getElementById("windSpeed");
+    const safe = document.getElementById("safe");
     const speed = owmWeather.json.wind.speed;
-   lable.innerHTML = "The wind speed is:" + speed;
+    r.style.setProperty(`--speed`, `${50000/speed}ms`);
+   lable.innerHTML = "The wind speed is: " + speed;
     if (5<speed){
     wind.className = "windy";
     alert("hold on to your hats");
+    safe.innerHTML = "Your hats are in MORTAL danger!";
    }else{
+    safe.innerHTML = "Your hats are safe!";
+    wind.className = "stop";
     alert("wear your hats without fear");
    }
    console.log(owmWeather.json.wind.speed);

@@ -10,7 +10,7 @@ let paddleForce = 1.1; // >= 1.0
 let paddleWidth = 25;
 let paddleLength = 100;
 let ballRadius = 12.5;
-let winCeiling = 5;
+let winCeiling = 2;
 
 let ball;
 let ballHistoryx = [0,0,0,0,0,0,0,0,0,0,0,0,0,00,0,0,0,0,0,0];

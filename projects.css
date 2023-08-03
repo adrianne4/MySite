@@ -21,14 +21,14 @@ body {
   }
   
   div#tswsidecol {
-    float: right;
+    float: left;
     width: 20%;
     color: black;
   }
   
   div#tswcontent {
     float: right;
-    width: 80%;
+    width: 100%;
     color: white;
   }
   
@@ -43,8 +43,8 @@ body {
     }
   }
   div#tswcontproper {
-    padding-left: 15px;
-    padding-right: 5px;
+    width:80%;
+    float:right;
     text-align: center;
   }
   
@@ -93,5 +93,8 @@ body {
     color: white;
     background-color: #a5c8e9;
   }
+ a {
+  color:#002459;
+ }
   
   

@@ -1,17 +1,38 @@
+:root {
+    --speed: 2000ms;
+    
+  }
+  
 body {
-    background-color: #1f001f;
-    color: white;
+    background-color: #ddedea;
+    color: rgb(65, 65, 65);
 }
 
+h4 {
+    font-size: 30px;
+}
+#wind{
+    width: 100px;
+    height: 100px; 
+}
 h2, p {
-    color: white;
+    /* color: white; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .windy{
     width: 100px;
     height: 100px;
     animation-name: spin;
-    animation-duration: 5000ms;
+    animation-duration: var(--speed);
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    position: relative;
+}
+.stop{
+    width: 100px;
+    height: 100px;
+    animation-name: stop;
+    animation-duration: 200ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
     position: relative;
@@ -24,6 +45,16 @@ h2, p {
     50% {
         left: calc(100% - 100px);
         transform:rotate(720deg);
+    }
+}
+@keyframes stop {
+    0%,100% {
+        transform:rotate(0deg);
+        left: 0;
+    }
+    50% {
+        left: calc(0);
+        transform:rotate(0deg);
     }
 }
 #dev-controls {
@@ -39,7 +70,7 @@ h2, p {
 }
 
 #forecast-table {
-    color: white;
+    /* color: white; */
     border-collapse: collapse;
 }
 
