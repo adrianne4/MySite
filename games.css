@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9ed6e4;
+    background-image: linear-gradient(0deg, #9ed6e4, #ACB4FC);
+    background-size:cover;
+    background-attachment:fixed;
+  }
+  
+  img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+  
+  input, select, button, textarea {
+    max-width: 100%;
+  }
+  
+  meter, progress, output {
+    max-width: 100%;
+  }
+  
+  div#tswsidecol {
+    float: right;
+    width: 20%;
+    color: black;
+  }
+  
+  div#tswcontent {
+    float: right;
+    width: 80%;
+    color: white;
+  }
+  
+  @media only screen and ( max-width : 629px ) {
+    div#tswsidecol {
+      float: none;
+      width: 100%;
+    }
+    div#tswcontent {
+      float: none;
+      width: 100%;
+    }
+  }
+  div#tswcontproper {
+    padding-left: 15px;
+    padding-right: 5px;
+    text-align: center;
+  }
+  
+  div#tswsideproper, div#tswothersideproper {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  div#tswheader {
+    color: #002459;
+    font-size: 50px;
+    font-family: "Lugrasimo", cursive;
+  }
+  #tswcssbuttons {
+    width: 250px;
+    max-width: 100%;
+    text-align: center;
+    
+  }
+  
+  #tswcssbuttons ul {
+   margin: 0px; 
+  padding:0px; 
+    list-style: outside none none;
+  }
+  
+  #tswcssbuttons li {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    list-style: outside none none;
+    font-family: 'Raleway', sans-serif;
+    font-size:25px;
+  }
+  
+  #tswcssbuttons li a {
+    color: white;
+    background-color: silver;
+    border: 1px solid gray;
+    text-decoration: none;
+        display: block;
+      padding:30px;
+      margin:30px;
+  }
+  
+  #tswcssbuttons li a:hover {
+    color: white;
+    background-color: #a5c8e9;
+  }
+  
+  
